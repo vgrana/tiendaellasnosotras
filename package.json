@@ -1,18 +1,28 @@
 {
-  "name": "paginaWebdelaWeb",
+  "name": "paginawebdelaweb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src",
-    "dev": "node src"
+    "start": "node src",
+    "dev": "nodemon src"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgrana/tiendaellasnosotras.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vgrana/tiendaellasnosotras/issues"
+  },
+  "homepage": "https://github.com/vgrana/tiendaellasnosotras#readme",
   "dependencies": {
     "express": "^4.17.1",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
