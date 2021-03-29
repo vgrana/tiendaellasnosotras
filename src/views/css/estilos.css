@@ -27,7 +27,7 @@ header {
     height: 600px;
 background: #b92b27; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, hsla(2, 60%, 30%, 0.404), hsla(212, 80%, 42%, 0.301)); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,  hsla(2, 60%, 30%, 0.404), #1565c0),url(../portada4.jpg); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+  background: linear-gradient(to right,  hsla(2, 60%, 30%, 0.404), #1565c0),url(../public/portada4.jpg); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
   background-attachment: fixed;
   background-size: cover;
   position: relative;
