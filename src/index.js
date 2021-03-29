@@ -5,7 +5,7 @@ const path = require("path");
 // morgan = require("morgan");
 
 
-server.set('port', 9000);
+server.set('port', 10000);
 server.set('views',path.join(__dirname, 'views'))
 
 server.use(express.static(path.join(__dirname, 'views')));
