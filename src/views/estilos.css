@@ -27,7 +27,7 @@ header {
     height: 600px;
 background: #b92b27; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, hsla(2, 60%, 30%, 0.404), hsla(212, 80%, 42%, 0.301)); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,  hsla(2, 60%, 30%, 0.404), #1565c0),url(../public/portada4.jpg); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+  background: linear-gradient(to right,  hsla(2, 60%, 30%, 0.404), #1565c0),url(./portada4.jpg); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -256,6 +256,25 @@ footer{
     header{
         background-position:center;
     }
+
+.imagen-port{
+    width: 100%;
+    margin-bottom: 10px;
+    height:124px;
+    
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+
+}
+.galeria-port{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+
     .contenedor-sobre-nosotros{
         flex-direction:column;
         justify-content:center;
@@ -268,7 +287,7 @@ footer{
         width:90%;
     }
     .imagen-port{
-        width:40%;
+        width:100%;
     }
 
     .cards{
