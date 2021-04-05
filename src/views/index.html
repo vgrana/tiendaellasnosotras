@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            M.AutoInit()
-        });
-    </script>
+    <!--boton whatssapp flotante-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="/estilos.css">
     <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
@@ -25,22 +27,31 @@
     <header>
         <!-- fija barra de menu -->
         <div class="navbar-fixed">
-            <nav class="red">
-                <div class="nav-wrapper container">
-                    <a href="#" class="brand-logo center">Ellas y Nosotras</a>
+            <nav class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Ellas y Nosotras</a>
 
                     <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                         <i class="material-icons">menu</i>
+
                     </a>
 
 
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Home</a></li>
-                        <li><a href="badges.html">galeria-port</a></li>
-                        <li><a href="collapsible.html">Donde estamos</a></li>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Galeria</a></li>
+                        <li><a href="#ubicacion">Donde estamos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </nav>
+            <ul class="sidenav" id="menu-responsive">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Galeria</a></li>
+                <li><a href="#ubicacion">Donde estamos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
         </div>
 
 
@@ -49,8 +60,8 @@
             <a href="#">Acerca de </a>
             <a href="#">Contacto</a>
         </nav> -->
-        <section class="textos-header">
-            <h2>Indumetaria femenina</h2>
+        <section class="textos-header" id="home">
+            <h2> Indumetaria femenina</h2>
             <h3>El lugar para vos</h3>
 
         </section>
@@ -82,7 +93,7 @@
         </section>
         <section class="portfolio">
             <div class="contenedor">
-                <h2 class="titulo">portafolio</h2>
+                <h2 class="titulo" id="portfolio">portafolio</h2>
                 <div class="galeria-port">
                     <div class="imagen-port">
                         <img src="./portada1.jpg" alt="">
@@ -183,14 +194,21 @@
         <footer>
             <div class="contenedor-footer">
                 <div class="content-foo">
-                    <h4>Fhone</h4>
+                    <h4 id="contacto">Fhone</h4>
 
 
                     <p>
                         Chate&aacute; con nosotros, estamos a tu disposici&oacute;n!!
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=[54][2478420091]&text=Hola!,%20necesito%20precio%20de%20una%20prenda">
-                            <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-5.png" alt="whatsapp-logo-5" />
+                        <a href="https://api.whatsapp.com/send?phone=[54][2478420091]&text=Hola!,%20necesito%20precio%20de%20una%20prenda" class="float" target="_blank">
+                            <i class="fa fa-whatsapp my-float"></i>
                         </a>
+
+
+
+
+                        <!-- <a target="_blank" href="https://api.whatsapp.com/send?phone=[54][2478420091]&text=Hola!,%20necesito%20precio%20de%20una%20prenda">
+                            <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-5.png" alt="whatsapp-logo-5" />
+                        </a> -->
                     </p>
                 </div>
 
@@ -212,8 +230,13 @@
         </footer>
     </section>
     <!-- Compiled and minified JavaScript -->
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
 </body>
+
 
 </html>
 <!-- Compiled and minified JavaScript -->
