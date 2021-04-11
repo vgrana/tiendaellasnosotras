@@ -20,29 +20,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="/estilos.css">
     <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
-    <title>Tienda ellas y nosotras</title>
+    <title>Tienda-de-ropa</title>
 </head>
 
 <body>
     <header>
         <!-- fija barra de menu -->
         <div class="navbar-fixed">
-            <nav class="nav-wrapper">
-                <div class="container">
-                    <a href="#" class="brand-logo">Ellas y Nosotras</a>
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <div href="#" class="brand-logo">Ellas y Nosotras</div>
 
-                    <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
+                        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
 
-                    </a>
+                        </a>
 
 
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#portfolio">Galeria</a></li>
-                        <li><a href="#ubicacion">Donde estamos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#portfolio">Galeria</a></li>
+                            <li><a href="#ubicacion">Donde estamos</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <ul class="sidenav" id="menu-responsive">
@@ -169,14 +171,16 @@
         </section>
         <section class="about-service">
             <div class="contenedor">
-                <h2 class="titulo">Nuestro servicios</h2>
+                <h2 class="titulo">Donde nos encontras</h2>
                 <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="./ilustracion1.jpg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae reprehenderit iste eos. Impedit corrupti assumenda perferendis esse modi! Optio quisquam illo at. Soluta, fuga? Officia veritatis soluta laborum molestias.</p>
+                    <div class="mapa" id="ubicacion">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.8577517416716!2d-59.79653034970348!3d-34.175554380477294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bbd98224a8d6d1%3A0x3592ef8f22b246ff!2sEllas%20y%20Nosotras!5e0!3m2!1ses-419!2sar!4v1618104920484!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+                        <!-- <img src="./mapa.jpg" alt=""> -->
+                        <!-- <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae reprehenderit iste eos. Impedit corrupti assumenda perferendis esse modi! Optio quisquam illo at. Soluta, fuga? Officia veritatis soluta laborum molestias.</p> -->
                     </div>
-                    <div class="servicio-ind">
+                    <!-- <div class="servicio-ind">
                         <img src="./ilustracion2.jpg" alt="">
                         <h3>Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae reprehenderit iste eos. Impedit corrupti assumenda perferendis esse modi! Optio quisquam illo at. Soluta, fuga? Officia veritatis soluta laborum molestias.</p>
@@ -185,7 +189,7 @@
                         <img src="./ilustracion3.jpg" alt="">
                         <h3>Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae reprehenderit iste eos. Impedit corrupti assumenda perferendis esse modi! Optio quisquam illo at. Soluta, fuga? Officia veritatis soluta laborum molestias.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -199,7 +203,7 @@
 
                     <p>
                         Chate&aacute; con nosotros, estamos a tu disposici&oacute;n!!
-                        <a href="https://api.whatsapp.com/send?phone=[54][2478420091]&text=Hola!,%20necesito%20precio%20de%20una%20prenda" class="float" target="_blank">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=[54][2478420091]&text=Hola!,%20necesito%20precio%20de%20una%20prenda" class="float" target="_blank">
                             <i class="fa fa-whatsapp my-float"></i>
                         </a>
 
@@ -226,7 +230,7 @@
                 </div>
 
             </div>
-            <h2 class="titulo-final">&copy;2020 vgrana design | valeria grandi</h2>
+            <div class="titulo-final">&copy;2020 vgrana design | valeria grandi</div>
         </footer>
     </section>
     <!-- Compiled and minified JavaScript -->

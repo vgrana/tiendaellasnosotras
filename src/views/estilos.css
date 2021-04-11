@@ -44,12 +44,6 @@ header {
 }
 
 
-/* nav {
-    text-align: right;
-    padding: 30px 50px 0 0;
-} */
-
-
 /* nav>a {
     color: #fff;
     font-weight: 300;
@@ -184,6 +178,9 @@ header .textos-header {
 }
 
 
+/*barra de navegacion*/
+
+
 /*clientes */
 
 .cards {
@@ -238,6 +235,7 @@ header .textos-header {
 .service-ind {
     width: 28%;
     text-align: center;
+    justify-content: center;
 }
 
 .servicio-ind img {
@@ -290,7 +288,7 @@ footer {
 
 .titulo-final {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
