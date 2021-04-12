@@ -43,6 +43,10 @@ header {
     position: relative;
 }
 
+.mapa {
+    text-align: center;
+}
+
 
 /* nav>a {
     color: #fff;
