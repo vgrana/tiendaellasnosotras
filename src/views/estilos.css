@@ -302,6 +302,12 @@ footer {
         background-position: center;
         width: 100%;
     }
+    .wave {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: auto;
+    }
     .contenedor {
         padding: 0px 0;
         width: 90%;
