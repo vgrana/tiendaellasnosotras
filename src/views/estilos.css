@@ -297,16 +297,13 @@ footer {
     color: #9e9797;
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     header {
         background-position: center;
         width: 100%;
     }
     .wave {
-        position: absolute;
-        bottom: 0%;
-        width: 100%;
-        height: auto;
+
     }
     .contenedor {
         padding: 0px 0;
