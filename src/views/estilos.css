@@ -385,6 +385,13 @@ footer {
     .my-float {
         margin-top: 16px;
     }
+    nav {
+        color: rgb(175, 37, 37);
+        background-color: #192674;
+        width: 100%;
+        height: 56px;
+        line-height: 28px;
+    }
     nav .brand-logo {
         font-size: 1.5em;
     }
