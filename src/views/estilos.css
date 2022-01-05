@@ -302,6 +302,13 @@ footer {
         background-position: center;
         width: 100%;
     }
+    .contenedor {
+        padding: 0px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
     .imagen-port {
         width: 90%;
         flex-direction: column;
