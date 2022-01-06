@@ -119,7 +119,7 @@ header .textos-header {
     margin-right: 5px;
 }
 
-.contendido-textos p {
+.contenido-textos p {
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
@@ -297,7 +297,7 @@ footer {
     color: #9e9797;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     header {
         background-position: center;
         width: 100%;
@@ -308,9 +308,10 @@ footer {
     width: 100%
 
     }
+    
     .contenedor {
         padding: 0px 0;
-        width: 90%;
+        width: 100%;
         max-width: 1000px;
         margin: auto;
         overflow: hidden;
