@@ -142,7 +142,6 @@ header .textos-header {
 
 
 
-/*
 .portfolio {
     background: #f2f2f2;
 }
@@ -160,7 +159,7 @@ header .textos-header {
     overflow: hidden;
     position: relative;
     /* cursor: pointer; */
- /*   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
 }
 
 .imagen-port>img {
@@ -395,15 +394,15 @@ footer {
     }
     .float:hover {
         text-decoration: none;
-        color: #040a06;
-        background-color: rgb(9, 230, 31);
+        color: #25d366;
+        background-color: #fff;
     }
     .my-float {
         margin-top: 16px;
     }
     nav {
         color: rgb(175, 37, 37);
-        background-color: #74194a;
+        background-color: #192674;
         width: 100%;
         height: 56px;
         line-height: 28px;
