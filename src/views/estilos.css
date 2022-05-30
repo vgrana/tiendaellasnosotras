@@ -15,6 +15,13 @@ body {
     margin: auto;
     overflow: hidden;
 }
+.contenedor2 {
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
 
 .titulo {
     color: #642a73;
