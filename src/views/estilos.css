@@ -311,6 +311,18 @@ footer {
     color: #9e9797;
 }
 
+.img span{
+    line-height:normal;
+    font-size:11px;
+    display:table-caption;
+    margin:0;
+    background:#646464;
+    color:white;
+    font-style:italic;
+    padding:5px;
+    text-align:center;
+   }
+
 @media (max-width:500px) {
     header {
         background-position: center;
