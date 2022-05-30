@@ -82,7 +82,7 @@
         width: 48%;
     }
     .overlay{
-        
+
     }
 }
 
@@ -97,6 +97,9 @@
         width: 80%;
     }
     .overlay{
-
-    }
+    
+    background:rgba(251, 252, 253, 0.781) ;
+    width: 0%;
+    
+}
 }
