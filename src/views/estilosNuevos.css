@@ -81,6 +81,9 @@
     .contenedor-imagenes .imagen{
         width: 48%;
     }
+    .overlay{
+        
+    }
 }
 
 @media screen and (max-width:450px){
